@@ -7,9 +7,11 @@
 
 <body>
     <div class="container">
-        <div class="card">
-            <div class="card-header">
-                Form Login
+        <div class="jumbotron">
+            <div class="page-header">
+                <center>
+                    <h1>Form-Login</h1>
+                </center>
             </div>
             <div class="card-body">
                 <?php
@@ -38,6 +40,7 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Login</button>
                 </form>
+                <a href="register"><button type="submit" class="btn btn-primary">Halaman Register</button></a>
             </div>
         </div>
     </div>

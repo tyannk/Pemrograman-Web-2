@@ -20,7 +20,7 @@ class Login extends CI_Controller
         $username = $this->input->post('username');
         $password = $this->input->post('password');
         if ($this->auth->login_user($username, $password)) {
-            redirect('home');
+            redirect('product');
         } else {
             $this->session->set_flashdata('error', 'Username & Password salah');
             redirect('login');

@@ -40,8 +40,8 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Login</button>
                 </form>
-                <a href="register"><button type="submit" class="btn btn-primary">Halaman Register</button></a>
             </div>
+            <a href="register"><button type="submit" class="btn btn-primary">Halaman Register</button></a>
         </div>
     </div>
 </body>

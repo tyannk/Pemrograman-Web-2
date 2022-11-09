@@ -39,6 +39,7 @@
             <?php endforeach; ?>
             </tbody>
         </table>
+        <a href="<?php echo site_url('product/export/'); ?>" class="btn btn-sm btn-primary">Export to Excel</a>
     </div>
     <!-- load jquery js file -->
     <script src="<?php echo base_url('assets/js/jquery.min.js'); ?>"></script>

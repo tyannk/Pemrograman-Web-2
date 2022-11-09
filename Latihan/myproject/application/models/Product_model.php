@@ -34,4 +34,9 @@ class Product_model extends CI_Model
         $this->db->where('product_id', $product_id);
         $this->db->update('product', $data);
     }
+    function eksport_data()
+    {
+        $data_product = $this->db->get('product')->result();
+        return $data_product;
+    }
 }
